@@ -131,10 +131,10 @@
      <remarks>PK da tabela identifica o ID de cada cliente.</remarks>
     </column>
     <column id="COL36" populated="true" UUID="63ce4b98-6eb8-4fa2-a7eb-04e6930adf3e" autoIncrement="false" autoIncrementSequenceName="envios_endereco_entrega_seq" defaultValue="" name="endereco_entrega" nullable="0" physicalName="endereco_entrega" precision="512" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
-     <remarks>.</remarks>
+     <remarks>Coluna mostra o endereço de entrega do pedido enviado.</remarks>
     </column>
     <column id="COL37" populated="true" UUID="ec82c780-c8cd-41ea-8cf1-da2a63b63efc" autoIncrement="false" autoIncrementSequenceName="envios_status_seq" defaultValue="" name="status" nullable="0" physicalName="status" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
-     <remarks>o enviado.</remarks>
+     <remarks>Coluna mostra o status do pedido enviado.</remarks>
     </column>
     </folder>
     <folder id="FOLTAB323" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
@@ -248,8 +248,8 @@
    </folder>
   </table>
   <relationships>
-   <relationship id="REL69" populated="true" UUID="6c0aac0f-5799-4eeb-8bac-914591bad43e" deferrability="7" deleteRule="3" fk-table-ref="TAB10" fkCardinality="7" identifying="false" name="clientes_pedidos_fk" physicalName="clientes_pedidos_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP70" populated="true" UUID="2613ae17-3f25-4c4b-b41c-8ac01cdcffab" fk-column-ref="COL13" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL69" populated="true" UUID="6c0aac0f-5799-4eeb-8bac-914591bad43e" deferrability="7" deleteRule="3" fk-table-ref="TAB10" fkCardinality="6" identifying="false" name="clientes_pedidos_fk" physicalName="clientes_pedidos_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP70" populated="true" UUID="c6ff13bd-a88f-4f11-bf05-179cefa0e7bf" fk-column-ref="COL13" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
    <relationship id="REL71" populated="true" UUID="a0baf6dd-3f1e-4cc3-bdaf-c00d16076f03" deferrability="7" deleteRule="3" fk-table-ref="TAB32" fkCardinality="7" identifying="false" name="clientes_envios_fk" physicalName="clientes_envios_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP72" populated="true" UUID="fadcfe36-6d39-4a1b-984e-cf7ca6226178" fk-column-ref="COL35" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
@@ -277,7 +277,7 @@
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="lojas"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="lojas"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="0.8408964152537143" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
