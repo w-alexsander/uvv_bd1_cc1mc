@@ -6,7 +6,7 @@
 ##### Professor: Abrantes Araujo Silva Filho
 ##### Monitora: Suellen Miranda Amorim
 
-Coloquei na pasta MariaDB a implementação neste SGBD, não sei se estou precisando de nota pois não tive acesso apenas a nota da prova mas como terminei o PSET nesse domingo (21/05), resolvi utilizar um pouco do tempo livre para aprender um pouco mais, talvez tenha alguma coisa ou outra errada mas importante é o conhecimento.
+Coloquei na pasta MariaDB a implementação neste SGBD, não sei se estou precisando de nota pois  tive acesso apenas a nota da prova mas como terminei o PSET nesse domingo (21/05), resolvi utilizar um pouco do tempo livre para aprender um pouco mais, talvez tenha alguma coisa ou outra errada mas importante é o conhecimento.
 
 Detalhe 1: O usuário william possui a senha " 123456 ", porém com o comando /setenv para logar automáticamente no banco de dados UVV, assim abrindo o arquivo com o comando psql -U postgres < cc1mc_202307773_postgresql.sql ele logará automáticamente, porém abrindo dentro do postgre através do comando /c ele pedirá a senha, isso se deve ao fato que sem senha, o usuário pedia senha mesmo sem nenhuma senha cadastrada na hora de criar o usuário e essa foi a única maneira que achei de resolver isso.
 
