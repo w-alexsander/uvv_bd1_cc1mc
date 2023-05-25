@@ -6,6 +6,7 @@ drop role                                     if exists william;
 
 -- Criação do usuário.
 
+
 CREATE USER  william
      with
      LOGIN
@@ -48,7 +49,7 @@ ALTER SCHEMA  lojas  OWNER TO william;
 ALTER USER                   william
 SET SEARCH_PATH TO lojas, "$user", public;
 
--- Tabela Produtos.
+-- TAbela Produtos.
 
 
 CREATE TABLE lojas.produtos (
@@ -108,7 +109,7 @@ COMMENT ON COLUMN lojas.lojas.endereco_fisico          IS 'Coluna mostra o ender
 COMMENT ON COLUMN lojas.lojas.latitude                 IS 'Coluna mostra a latitude geográfica da loja cadastrada.';
 COMMENT ON COLUMN lojas.lojas.longitude                IS 'Coluna mostra a longitude geográfica da loja cadastrada.';
 COMMENT ON COLUMN lojas.lojas.logo                     IS 'Coluna armazena a logo da loja cadastrada.';
-COMMENT ON COLUMN lojas.lojas.logo_mime_type           IS 'Tipo do arquivo imagem.';
+COMMENT ON COLUMN lojas.lojas.logo_mime_type           IS 'btipo do arquivo imagem.';
 COMMENT ON COLUMN lojas.lojas.logo_arquivo             IS 'Coluna armazena o arquivo da logo.';
 COMMENT ON COLUMN lojas.lojas.logo_charset             IS 'Coluna armazena o charset da logo, desde a ASCII para UTF-8.';
 COMMENT ON COLUMN lojas.lojas.logo_ultima_atualizacao  IS 'Coluna armazena a data da última atualização da logo.';
