@@ -14,4 +14,3 @@ Detalhe 1: O usuário william possui a senha " 123456 ", porém com o comando /s
 
 Detalhe 2: Na relação entre envios e pedidos_itens, não consegui manter a relação da tabela pedidos_itens ter zero envios pois não há essa opção no Architect Power, então mantive zero ou um.
 
-Detalhe 3: Eu coloquei um check em alguns itens com UNIQUE, porém percebi depois que o NOT NULL já faz essa tarefa, mas acabei deixando.
