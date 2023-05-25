@@ -6,6 +6,8 @@
 ##### Professor: Abrantes Araujo Silva Filho
 ##### Monitora: Suellen Miranda Amorim
 
+## Implementação do banco de dados lojas da UVV.
+
 Coloquei na pasta MariaDB a implementação neste SGBD, não sei se estou precisando de nota pois  tive acesso apenas a nota da prova mas como terminei o PSET nesse domingo (21/05), resolvi utilizar um pouco do tempo livre para aprender um pouco mais, talvez tenha alguma coisa ou outra errada mas importante é o conhecimento.
 
 Tentei implementar no SQL Server também mas é bem diferente os comandos e tive um problema: " Login failed for user 'sa', pesquisei na internet e a solução seria configurar um tal de SSMS que não achei na máquina e a gente tem teste de lógica essa semana e já usei a semana passada inteira no pset então acabei deixando pra lá, talvez depois eu tente novamente.
