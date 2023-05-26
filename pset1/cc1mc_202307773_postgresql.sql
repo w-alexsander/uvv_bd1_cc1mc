@@ -15,7 +15,7 @@ CREATE USER  william
      CREATEDB
      CREATEROLE
      REPLICATION
-     PASSWORD '123456';
+     ENCRYPTED PASSWORD '123456';
  
 -- Utilizar meu usuário  
     
